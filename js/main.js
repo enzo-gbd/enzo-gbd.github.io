@@ -40,27 +40,27 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("C").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("Python").getContext("2d")).Doughnut(doughnutData);
 
   // WordPress Chart
   var doughnutData = [{
-    value: 40,
+    value: 70,
     color: "#1abc9c"
   },
   {
-    value: 60,
+    value: 30,
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("Python").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("Dart").getContext("2d")).Doughnut(doughnutData);
 
   // HTML Chart
   var doughnutData = [{
-    value: 30,
+    value: 50,
     color: "#1abc9c"
   },
   {
-    value: 70,
+    value: 50,
     color: "#ecf0f1"
   }
   ];
